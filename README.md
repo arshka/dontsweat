@@ -1,5 +1,5 @@
 # dontsweat
 
-Real-time multiplayer heart rate monitor using Web Bluetooth. Connect chest straps, see everyone's BPM live.
+Real-time multiplayer heart rate monitor using web bluetooth to add a twist to poker, imposter, other deception games, or anything else.
 
-Built with React + Vite. Requires Chrome/Edge.
+Requires Chrome/Edge.
