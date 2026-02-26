@@ -76,8 +76,9 @@ export function PlayerCard({ player, index }: Props) {
               <button
                 className={styles.editBtn}
                 onClick={startEditing}
+                title="Rename"
               >
-                rename
+                &#9998;
               </button>
             </div>
           )}
