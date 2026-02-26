@@ -1,0 +1,77 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 1.5rem;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: rgba(10, 10, 15, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--border);
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.logo {
+  font-size: 1.8rem;
+  color: var(--red);
+  filter: drop-shadow(0 0 8px var(--red));
+  animation: pulse 1.2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.15); }
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--text);
+  letter-spacing: 0.05em;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.count {
+  font-size: 0.9rem;
+  color: var(--text-dim);
+  font-variant-numeric: tabular-nums;
+}
+
+.addButton {
+  padding: 0.5rem 1.25rem;
+  border: 1px solid var(--accent);
+  border-radius: 6px;
+  background: transparent;
+  color: var(--accent);
+  font-weight: 600;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.addButton:hover:not(:disabled) {
+  background: var(--accent);
+  color: var(--bg);
+}
+
+.addButton:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.warning {
+  color: var(--red);
+  font-size: 0.85rem;
+}

@@ -1,0 +1,39 @@
+:root {
+  --bg: #0a0a0f;
+  --surface: #14141f;
+  --border: #1e1e2e;
+  --text: #e0e0e8;
+  --text-dim: #6b6b80;
+  --accent: #3a86ff;
+  --red: #ff006e;
+  --green: #06d6a0;
+  --yellow: #fee440;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  color-scheme: dark;
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  background: var(--bg);
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.025) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.025) 1px, transparent 1px);
+  background-size: 40px 40px;
+  color: var(--text);
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  min-height: 100vh;
+}

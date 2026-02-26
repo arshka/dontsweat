@@ -1,0 +1,75 @@
+.chartContainer {
+  padding: 0 1.5rem 1.5rem;
+}
+
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.timeButtons {
+  display: flex;
+  gap: 2px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 2px;
+}
+
+.timeBtn {
+  padding: 0.3rem 0.7rem;
+  border: none;
+  border-radius: 4px;
+  background: transparent;
+  color: var(--text-dim);
+  font-size: 0.75rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.timeBtn:hover {
+  color: var(--text);
+}
+
+.timeBtnActive {
+  background: var(--border);
+  color: var(--text);
+}
+
+.resetBtn {
+  padding: 0.3rem 0.75rem;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: transparent;
+  color: var(--text-dim);
+  font-size: 0.75rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.resetBtn:hover {
+  color: var(--red);
+  border-color: var(--red);
+}
+
+.chartInner {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 1rem;
+  min-height: 300px;
+}
+
+/* Override uPlot default styles for dark theme */
+.chartInner :global(.u-legend) {
+  font-size: 0.8rem;
+  color: var(--text-dim);
+}
+
+.chartInner :global(.u-legend .u-series) {
+  padding: 2px 8px;
+}
