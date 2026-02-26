@@ -11,7 +11,7 @@ export function Header() {
     <header className={styles.header}>
       <div className={styles.brand}>
         <span className={styles.logo}>&#9829;</span>
-        <h1 className={styles.title}>GameHR</h1>
+        <h1 className={styles.title}>nosweat</h1>
       </div>
 
       <div className={styles.actions}>
