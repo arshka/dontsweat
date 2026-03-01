@@ -4,7 +4,7 @@ https://arshka.github.io/dontsweat/
 
 ### Real-time multiplayer heart rate monitor with web bluetooth 
 
-Add a twist to poker, imposter, other deception games, or anything else.
+Fun twist to poker, imposter, any deception games, or anything else.
 
 Works with 
 - Whoop
