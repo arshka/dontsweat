@@ -43,6 +43,21 @@
   gap: 1rem;
 }
 
+.starLink {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  color: var(--text-dim);
+  font-size: 0.8rem;
+  text-decoration: none;
+  opacity: 0.5;
+  transition: opacity 0.15s ease;
+}
+
+.starLink:hover {
+  opacity: 1;
+}
+
 .count {
   font-size: 0.9rem;
   color: var(--text-dim);
